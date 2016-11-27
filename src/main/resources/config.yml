@@ -2,7 +2,7 @@
 # Defaults/explanation:
 # pkonly: true                  [true/false]    When true trophies only drop when a player kills another player (as opposed to self drowning, etc)
 # droprate: 0.05                [0.0 -> 1.0]    Chance that a trophy will drop when a player dies (1 is 100%, 0 is never)
-# lootingrate: 0.2              [0.0 -> 1.0]    Increases all droprates by lootingrate percent per looting level when a enchanted weapon is used
+# lootingrate: 0.4              [0.0 -> 1.0]    Increases all droprates by lootingrate percent per looting level when a enchanted weapon is used
 # mobpkonly: true               [true/false]    When true mob trophies only drop when a player kills the mob (as opposed to a lava blade or fall death)
 # creeperdroprate: 0.005        [0.0 -> 1.0]    Chance that a mob trophy will drop when a creeper dies
 # zombiedroprate: 0.002         [0.0 -> 1.0]    Chance that a mob trophy will drop when a zombie dies
@@ -15,6 +15,7 @@
 # squiddroprate: 0.005          [0.0 -> 1.0]    Chance that a mob trophy will drop when a squid dies
 # silverfishdroprate: 0.005     [0.0 -> 1.0]    Chance that a mob trophy will drop when a silverfish dies
 # enderdragondroprate: 0.05     [0.0 -> 1.0]    Chance that a mob trophy will drop when an ender dragon dies
+# witherbossdroprate: 0.05      [0.0 -> 1.0]    Chance that a mob trophy will drop when a wither boss dies
 # slimedroprate: 0.001          [0.0 -> 1.0]    Chance that a mob trophy will drop when a slime dies
 # irongolemdroprate: 0.005      [0.0 -> 1.0]    Chance that a mob trophy will drop when an iron golem dies
 # mushroomcowdroprate: 0.002    [0.0 -> 1.0]    Chance that a mob trophy will drop when a mushroom cow dies
@@ -34,6 +35,10 @@
 # cavespiderdroprate: 0.002     [0.0 -> 1.0]    Chance that a mob trophy will drop when a cave spider dies
 # rabbitdroprate: 0.002         [0.0 -> 1.0]    Chance that a mob trophy will drop when a rabbit dies
 # guardiandroprate: 0.025       [0.0 -> 1.0]    Chance that a mob trophy will drop when a guardian dies
+# endermitedroprate: 0.025      [0.0 -> 1.0]    Chance that a mob trophy will drop when an endermite dies
+# elderguardiandroprate: 0.2    [0.0 -> 1.0]    Chance that a mob trophy will drop when an elder guardian dies
+# shulkerdroprate: 0.05         [0.0 -> 1.0]    Chance that a mob trophy will drop when a shulker dies
+# polarbeardroprate: 0.005      [0.0 -> 1.0]    Chance that a mob trophy will drop when a polar bear dies
 # fixcase: true                 [true/false]    When spawning/renaming heads, will attempt to make the input case insensitive
 # updatecheck: true             [true/false]    Checks for update on startup and alerts admins
 # broadcast: true               [true/false]    Sends a message when someone gets beheaded
@@ -42,7 +47,7 @@
 # dropboringplayerheads: false  [true/false]    Drop plain heads when a player dies, instead of the player's head
 pkonly: true
 droprate: 0.05
-lootingrate: 0.2
+lootingrate: 0.4
 mobpkonly: true
 creeperdroprate: 0.005
 zombiedroprate: 0.002
@@ -55,6 +60,7 @@ horsedroprate: 0.002
 squiddroprate: 0.005
 silverfishdroprate: 0.005
 enderdragondroprate: 0.05
+witherbossdroprate: 0.05
 slimedroprate: 0.001
 irongolemdroprate: 0.005
 mushroomcowdroprate: 0.002
@@ -74,6 +80,10 @@ wolfdroprate: 0.002
 cavespiderdroprate: 0.002
 rabbitdroprate: 0.002
 guardiandroprate: 0.025
+endermitedroprate: 0.05
+elderguardiandroprate: 0.2
+shulkerdroprate: 0.05
+polarbeardroprate: 0.005
 fixcase: true
 updatecheck: true
 broadcast: true
